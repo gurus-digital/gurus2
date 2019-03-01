@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
 const Header = (props) => (
-    <header id="header" style={props.timeout ? {display: 'none'} : {}}>
+    <header id="header">
         <div className="logo">
             <span className="icon fa-diamond"></span>
         </div>
@@ -16,10 +16,10 @@ const Header = (props) => (
         </div>
         <nav>
             <ul>
-                <li><Link to="/intro" onClick={() => {props.onOpenArticle('intro')}}>Intro</Link></li>
-                <li><Link to="/work" onClick={() => {props.onOpenArticle('work')}}>Work</Link></li>
-                <li><Link to="/about" onClick={() => {props.onOpenArticle('about')}}>About</Link></li>
-                <li><Link to="/contact" onClick={() => {props.onOpenArticle('contact')}}>Contact</Link></li>
+                <li><Link to="/intro">Intro</Link></li>
+                <li><Link to="/work">Work</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
             </ul>
         </nav>
     </header>
