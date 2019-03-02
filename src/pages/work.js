@@ -40,6 +40,7 @@ class Intro extends React.Component {
   render() {
     return (
       <div>
+      <Link to="/">home</Link>
         <Coverflow
           width={1920}
           height={1080}
