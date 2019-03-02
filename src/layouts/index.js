@@ -27,7 +27,7 @@ class Layout extends React.Component {
             </Transition>
             <Footer />
           </div>
-          <div id="bg"></div>
+          <div id="bg" className={ this.props.location.pathname != '/'  ? 'is-article-visible' : '' }></div>
         </div>
       </Layout2>
     )

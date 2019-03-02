@@ -4,19 +4,22 @@ import {
     Transition as ReactTransition,
 } from "react-transition-group"
 
-const timeout = 500
+const timeout = 350
 const getTransitionStyles = {
     entering: {
         position: 'absolute',
         opacity: 0,
+        transform: 'scale(.9)',
     },
     entered: {
         transition: `opacity ${timeout}ms ease-in-out`,
         opacity: 1,
+        transform: 'scale(1)',
     },
     exiting: {
         transition: `all ${timeout}ms ease-in-out`,
-        opacity: 0
+        opacity: 0,
+        transform: 'scale(.9)',
     },
 }
 
@@ -34,7 +37,7 @@ class Transition extends React.PureComponent {
                     }}
                 >
                     {status => (
-                        <div
+                        <div id="main"
                             style={{
                                 ...getTransitionStyles[status],
                             }}

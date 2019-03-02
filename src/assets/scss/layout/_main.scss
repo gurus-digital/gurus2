@@ -16,7 +16,6 @@
 		position: relative;
 		max-width: 100%;
 		z-index: 3;
-		display: none;
 
 		article {
 			@include vendor('transform', 'translateY(0.25rem)');
@@ -30,7 +29,6 @@
 			max-width: 100%;
 			background-color: transparentize(_palette(bg), 0.15);
 			border-radius: _size(border-radius);
-			opacity: 0;
 
 			&.timeout {
 				display: none;
@@ -108,4 +106,9 @@
 				@include padding(2rem, 1.5rem, (1rem, 0, 0.5rem, 0));
 			}
 		}
+	}
+
+	.coverflow__container__1P-xE {
+    position: relative;
+    background: rgba(0, 0, 0, 0) !important;
 	}
