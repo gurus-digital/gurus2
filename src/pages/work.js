@@ -43,12 +43,12 @@ class Intro extends React.Component {
       <Link to="/">home</Link>
         <Coverflow
           width={1920}
-          height={1080}
-          displayQuantityOfSide={2}
+          height={800}
+          displayQuantityOfSide={4}
           navigation={false}
           enableHeading={false}
           active={this.state.active}
-          currentFigureScale={1.8}
+          currentFigureScale={1.5}
           otherFigureScale={.8}
         >
           <img src={album01}  alt='Album two' data-action="http://passer.cc"/>
