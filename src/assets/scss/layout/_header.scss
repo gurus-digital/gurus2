@@ -72,7 +72,7 @@
 			border-color: _palette(border);
 			border-top-width: _size(border-width);
 			border-bottom-width: _size(border-width);
-			max-width: 100%;
+			max-width: 90%;
 
 			.inner {
 				@include vendor('transition', (
