@@ -41,31 +41,7 @@ class Intro extends React.Component {
     return (
       <div>
       <Link to="/">home</Link>
-        {/*<Coverflow
-          width={1200}
-          height={600}
-          displayQuantityOfSide={2}
-          navigation={false}
-          enableHeading={false}
-          active={this.state.active}
-          currentFigureScale={2.0}
-          otherFigureScale={.9}
-        >
-          <img src={album01}  alt='Album two' data-action="http://passer.cc"/>
-          <img src={album02}  alt='Album two' data-action="http://passer.cc"/>
-          <img src={album03}  alt='Album two' data-action="http://passer.cc"/>
-          <img src={album04}  alt='Album two' data-action="http://passer.cc"/>
-          <img src={album05}  alt='Album two' data-action="http://passer.cc"/>
-          <img src={album06}  alt='Album two' data-action="http://passer.cc"/>
-          <img src={album07}  alt='Album two' data-action="http://passer.cc"/>
-          <img src={album08}  alt='Album two' data-action="http://passer.cc"/>
-          <img src={album10}  alt='Album two' data-action="http://passer.cc"/>
-          <img src={album11}  alt='Album two' data-action="http://passer.cc"/>
-          <img src={album12}  alt='Album two' data-action="http://passer.cc"/>
-          <img src={album13}  alt='Album two' data-action="http://passer.cc"/>
-          <img src={album14}  alt='Album two' data-action="http://passer.cc"/>
-          <img src={album15}  alt='Album two' data-action="http://passer.cc"/>
-        </Coverflow>*/}
+        
       </div>
     )
   }
