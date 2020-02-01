@@ -41,7 +41,7 @@ class Intro extends React.Component {
     return (
       <div>
       <Link to="/">home</Link>
-        <Coverflow
+        {/*<Coverflow
           width={1200}
           height={600}
           displayQuantityOfSide={2}
@@ -65,7 +65,7 @@ class Intro extends React.Component {
           <img src={album13}  alt='Album two' data-action="http://passer.cc"/>
           <img src={album14}  alt='Album two' data-action="http://passer.cc"/>
           <img src={album15}  alt='Album two' data-action="http://passer.cc"/>
-        </Coverflow>
+        </Coverflow>*/}
       </div>
     )
   }
