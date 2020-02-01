@@ -1,23 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import ReactDOM from 'react-dom';
-import Coverflow from 'react-coverflow';
 
-import album01 from '../images/work/Gurus-Portfolio-01.jpg'
-import album02 from '../images/work/Gurus-Portfolio-02.jpg'
-import album03 from '../images/work/Gurus-Portfolio-03.jpg'
-import album04 from '../images/work/Gurus-Portfolio-04.png'
-import album05 from '../images/work/Gurus-Portfolio-05.jpg'
-import album06 from '../images/work/Gurus-Portfolio-06.jpg'
-import album07 from '../images/work/Gurus-Portfolio-07.jpg'
-import album08 from '../images/work/Gurus-Portfolio-08.jpg'
-import album09 from '../images/work/Gurus-Portfolio-09.jpg'
-import album10 from '../images/work/Gurus-Portfolio-10.jpg'
-import album11 from '../images/work/Gurus-Portfolio-11.jpg'
-import album12 from '../images/work/Gurus-Portfolio-12.jpg'
-import album13 from '../images/work/Gurus-Portfolio-13.jpg'
-import album14 from '../images/work/Gurus-Portfolio-14.png'
-import album15 from '../images/work/Gurus-Portfolio-15.png'
 
 class Intro extends React.Component {
   constructor(props) {
